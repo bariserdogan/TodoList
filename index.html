@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>deneme</title>
+	<link rel="stylesheet" href="">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<!-- Latest compiled and minified CSS & JS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<script src="myscript.js"></script>
+	<style type="text/css" media="screen">
+		html,body{
+			background-image: url("https://image.freepik.com/free-vector/digital-technology-background_1017-7135.jpg");
+			background-size: cover;
+		}
+		#title{font-style:normal;font-weight: bold;background-color: navy;color:white;display: inline;}
+		
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="row" style="margin-top: 50px;">
+			<div class="col-md-6 col-md-push-3">
+				<div class="row" style="padding-left: 13px;">
+					<strong><h3 class="text-info" id="title">TO DO LİST</h3></strong>
+				</div>
+				<div class="row" style="margin-top: 20px;">
+					<div class="col-md-6">
+						<input style="border-radius: 0;" type="text" name="inputText" id="inputText" class="form-control" required="required" placeholder="Write something...">
+					</div>
+					<div class="col-md-3">
+						<button style="border-radius: 0;" type="button" id="kaydet" class="btn btn-success btn-block">Add To List</button>
+					</div>
+					<div class="col-md-3">
+						<button style="border-radius: 0;" type="button" id="sil" class="btn btn-danger btn-block">Clear All</button>
+					</div>
+				</div>
+				<div class="row" style="margin-top: 20px;">
+					<div class="col-md-12">
+						<div class="panel panel-info" style="border-radius: 0;">
+							<div class="panel-body">
+								<ul id="list">
+								</ul>
+							</div>
+						</div>
+					</div>	
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
